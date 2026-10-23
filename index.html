@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDTS | Centro para el Desarrollo</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="pagina">
+
+        <!-- ENCABEZADO -->
+        <header class="encabezado">
+            <div class="logo">
+                <img src="imagenes/32.gif" alt="Logotipo">
+                <div>
+                    <h1>CDTS</h1>
+                    <p>Centro para el Desarrollo de Talentos y Sobrevivientes A.C.</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- MENÚ DE NAVEGACIÓN -->
+        <nav class="navbar navbar-expand-md menu">
+            <div class="container-fluid p-0">
+
+                <button class="navbar-toggler boton-menu"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#menuPrincipal"
+                        aria-controls="menuPrincipal"
+                        aria-expanded="false"
+                        aria-label="Abrir menú">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+                    <ul class="navbar-nav w-100">
+                        <li class="nav-item">
+                            <a class="nav-link activo" href="#inicio">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cdts">CDTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#objetivos">TALENTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicios">SERVICIOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#recursos">RECURSOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <!-- BANNER PRINCIPAL -->
+        <section class="banner" id="inicio">
+            <img src="imagenes/nino_escuchando.png"
+                 alt="Niño escuchando y aprendiendo">
+
+            <div class="frase">
+                <p>“Escucha las ideas de tus hijos,
+                    anímalos y logra que aprendan
+                    a tomar sus propias decisiones.”</p>
+                <span>— Dennis Waitley</span>
+            </div>
+        </section>
+
+        <!-- CONTENIDO PRINCIPAL -->
+        <main class="contenido">
+
+            <section id="objetivos">
+                <h2>Nuestros Objetivos</h2>
+
+                <!-- CUATRO IMÁGENES -->
+                <div class="row galeria g-2">
+
+                    <div class="col-6 col-md-3">
+                        <img src="imagenes/nina_pelota.png"
+                             alt="Desarrollo personal">
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <img src="imagenes/nino_escribiendo.png"
+                             alt="Aprendizaje y educación">
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <img src="imagenes/nina_jugando.png"
+                             alt="Creatividad infantil">
+                    </div>
+
+                    <div class="col-6 col-md-3">
+                        <img src="imagenes/varios_ninos.png"
+                             alt="Trabajo en equipo">
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- TEXTO Y BOTÓN -->
+            <section class="row informacion" id="cdts">
+
+                <div class="col-md-8">
+                    <p>
+                        El programa educativo tradicional no siempre
+                        apoya el desarrollo óptimo de cada alumno.
+                        Por eso es importante reconocer sus habilidades,
+                        capacidades e intereses.
+                    </p>
+
+                    <p>
+                        Nuestro objetivo es impulsar el desarrollo
+                        personal, la creatividad y el aprendizaje,
+                        ayudando a cada niño a descubrir sus talentos
+                        y fortalecer sus capacidades.
+                    </p>
+
+                    <p>
+                        Trabajamos para promover oportunidades de
+                        aprendizaje que permitan a los niños desarrollar
+                        sus habilidades en un ambiente positivo.
+                    </p>
+                </div>
+
+                <div class="col-md-4 opinion" id="servicios">
+                    <a href="#contacto">
+                        <img src="imagenes/opcion.png"
+                             alt=""
+                             class="icono-opinion">
+                        <span>SU OPINIÓN<br>ES IMPORTANTE</span>
+                    </a>
+                </div>
+
+            </section>
+
+            <!-- SECCIÓN INFERIOR -->
+            <section class="row secciones-inferiores" id="recursos">
+
+                <div class="col-md-6">
+                    <h3>Desarrollo y aprendizaje</h3>
+                    <p>
+                        Promovemos actividades que favorecen
+                        la imaginación, la creatividad y el
+                        desarrollo de nuevas habilidades.
+                    </p>
+                </div>
+
+                <div class="col-md-6">
+                    <h3>Talentos y capacidades</h3>
+                    <p>
+                        Cada persona tiene habilidades propias.
+                        Nuestro propósito es apoyar su desarrollo
+                        mediante experiencias educativas.
+                    </p>
+                </div>
+
+            </section>
+
+        </main>
+
+        <!-- PIE DE PÁGINA -->
+        <footer class="pie" id="contacto">
+
+            <div class="redes">
+                <img src="imagenes/contactos.png" alt="Contacto">
+                <span>CDTS</span>
+            </div>
+
+            <div class="redes">
+                <img src="imagenes/contacto.png" alt="Información de contacto">
+                <span>Contáctanos</span>
+            </div>
+
+            <div class="redes">
+                <img src="imagenes/contactoimage.png" alt="Información">
+                <span>Más información</span>
+            </div>
+
+            <p class="copyright">
+                Centro para el Desarrollo de Talentos y Sobrevivientes A.C.
+            </p>
+
+        </footer>
+
+    </div>
+
+
+</body>
+</html>
